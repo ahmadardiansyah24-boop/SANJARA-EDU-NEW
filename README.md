@@ -4,7 +4,7 @@ Game edukasi Benar/Salah dengan nuansa battle, camera support, responsive layout
 
 ## Struktur
 - `index.html` — aplikasi utama SANJARA EDU V13
-- `assets/audio/sanjara-battle-bgm.mp3` — lokasi musik battle yang dipakai bila aset audio sudah diunggah
+- `assets/audio/sanjara-battle-bgm.mp3` — musik battle yang diputar berulang saat arena permainan dimulai
 
 ## GitHub Pages
 Workflow deployment sudah disiapkan di `.github/workflows/pages.yml`.
@@ -20,6 +20,6 @@ Alamat situs:
 ## Menjalankan
 Buka alamat GitHub Pages di atas. Browser tetap meminta interaksi pengguna sebelum audio dapat diputar.
 
-> Catatan musik: repositori saat ini belum menyimpan file MP3 eksternal di `assets/audio/`. Jangan mengunggah musik berhak cipta ke repo publik kecuali Anda memiliki izin/lisensi untuk mendistribusikannya.
+> Catatan musik: audio battle ditempatkan pada `assets/audio/sanjara-battle-bgm.mp3` dan digunakan oleh pemutar BGM bawaan game. Pastikan Anda memiliki hak/izin untuk mendistribusikan audio tersebut pada repo publik.
 
 Author: Ahmad Yurid Ardiansah
